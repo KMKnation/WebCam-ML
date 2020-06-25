@@ -1,0 +1,12 @@
+{
+    "apps": [{
+        "name": "Deployment",
+        "script": "/home/hb/demos/deploy/flask-video-streaming/app.py",
+        "args": [""],
+        "instances": "1",
+        "wait_ready": true,
+        "autorestart": true,
+        "max_restarts": 10,
+        "interpreter" : "/usr/bin/python3"
+    }]
+}
